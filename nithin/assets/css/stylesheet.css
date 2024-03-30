@@ -1,0 +1,894 @@
+html, body{
+    background-color: #ffffff;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: 'Jost';
+    font-weight: normal;
+    font-style: normal;
+    color: #000;
+}
+.header{
+    padding: 50px 0;
+    background-color: #e2e3eb;
+}
+.c{
+    max-width: 1630px;
+
+}
+.row{
+    font-size: 0;
+    margin: 0 -20px;
+}
+.col{
+    padding: 0 20px;
+}
+.header_menu ul {
+    list-style: none;
+    display: inline-block;
+}
+.header_menu li {
+    padding-left: 47px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.header_menu a{
+    font-size: 30px;
+}
+.header_menu {
+    text-align: center;
+}
+.download{
+    text-align: right;
+}
+.a{
+    display: inline-block;
+}
+.btn{
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 600;
+    padding: 10px 30px 10px 30px;
+    line-height: 1.25;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    color: black;
+    box-sizing: border-box;
+}
+.btn:hover{
+    color: #FFB700;
+}
+.header_menu ul li a:before {
+    content:"";
+    height:3px;
+    width:0;
+    position:absolute;
+    background-color: #FFB700;
+    bottom:-3px;
+    left:0;
+    transition: all .3s;
+}
+.header_menu ul li a {
+    position: relative;
+}
+.header_menu ul li a:hover:before{
+    width: 100%;
+}
+.banner {
+    position: relative;
+    background-color: #EFEFF1;
+    height: calc(100vh - 130px);
+}
+.banner .goal h1{
+    font-size: 128px;
+    color: #FF9B26;
+    font-family: 'Inter';
+    font-weight: bold;
+    text-align: center;
+}
+.banner .goal {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+.background .image {
+    height: 1049px;
+    position: relative;
+}
+.photo .image {
+    padding-top: 111.672%;
+}
+.section .photo {
+    position: absolute;
+    top: 100%;
+    width: 50%;
+}
+.description .span {
+    font-size: 18px;
+    color: #A0A0A0;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+.description h1.title {
+    font-size: 30px;
+    color: #FF9B26;
+    font-family: 'Inter';
+    font-weight: bold;
+    padding-top: 18px;
+}
+.paragraph {
+    padding-top: 35px;
+}
+.description p {
+    font-size: 19px;
+    font-family: 'Inter';
+    color: #222222;
+    padding-top: 20px;
+}
+.description span {
+    font-size: 18px;
+    color: #A0A0A0;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+.description {
+    position: absolute;
+    top: 130%;
+    max-width: 750px;
+}
+.description .letter {
+    padding-top: 40px;
+}
+.description .letter .letter1 span {
+    font-size: 18px;
+    font-family: 'Inter';
+    font-style: italic;
+    color: #FFAE3B;
+    display: block;
+    font-weight: bold;
+}
+.description .letter .letter2 span{
+    font-size: 18px;
+    font-family: 'Inter';
+    font-style: italic;
+    color: #FFAE3B;
+    display: block;
+    font-weight: normal;
+}
+.tabl .text {
+    max-width: 750px;
+}
+.tabl {
+    background-color: #EFEFF1;
+    padding: 90px 0;
+}
+.text h1{
+    font-size: 60px;
+    font-family: 'Inter';
+    color: #FF9B26;
+    font-weight: bold;
+}
+.box .box1 .letter{
+    background-color: #FF9B26;
+    padding: 50px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    font-size: 25px;
+}
+.box span{
+    color: #FFFFFF;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.boxes .box {
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+.boxes .box p.box1 {
+    display: inline-block;
+    position: relative;
+}
+.box1 span.color1 {
+    position: relative;
+    font-size: 40px;
+    padding-left: 40px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .7s ease-in;
+    cursor: pointer;
+}
+.box1 span.num2 {
+    color: #1A1449;
+    position: relative;
+    font-size: 50px;
+    padding-left: 75px;
+    padding-right: 30px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .7s ease-in;
+    cursor: pointer;
+}
+.box p.box1:before{
+    position: absolute;
+    transition: all .7s ease-in-out;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #FF9B26;
+    content: "";
+    cursor: pointer;
+}
+.box p.box1:hover:before{
+    width: 100%;
+}
+.box p.box1:hover span.num2{
+    visibility: visible;
+    opacity: 1;
+}
+.box p.box1:hover span.color1{
+    visibility: visible;
+    opacity: 1;
+}
+.tabl .boxes{
+    padding-top: 6%;
+}
+.box .box2 .letter{
+    background-color: #444DD1;
+    padding: 50px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    font-size: 25px;
+}
+.box2 span.color1 {
+    position: relative;
+    font-size: 40px;
+    padding-left: 90px;
+    padding-right: 30px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .7s ease-in;
+    cursor: pointer;
+}
+.box p.box2:hover:before{
+    width:100%;
+} 
+.box p.box2:before {
+    position: absolute;
+    transition: all .7s ease-in-out;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #444DD1;
+    content: "";
+    cursor: pointer;
+}
+.box p.box2:hover span.color1{
+    visibility: visible;
+    opacity: 1;
+}
+.boxes .box p.box2 {
+    display: inline-block;
+    position: relative;
+}
+.box .box3 .letter{
+    background-color: #66408B;
+    padding: 50px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    font-size: 25px;
+}
+.box p.box3:hover:before{
+    width:100%;
+} 
+.box p.box3:before {
+    position: absolute;
+    transition: all .7s ease-in-out;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #66408B;
+    content: "";
+    cursor: pointer;
+}
+.box p.box3:hover span.color1{
+    visibility: visible;
+    opacity: 1;
+}
+.boxes .box p.box3{
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+}
+.box3 span.color1 {
+    position: relative;
+    font-size: 40px;
+    padding-left: 90px;
+    padding-right: 30px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .7s ease-in;
+    cursor: pointer;
+}
+.box .box4 .letter{
+    background-color: #4A898F;
+    padding: 50px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    font-size: 25px;
+}
+.box4 span.color1 {
+    position: relative;
+    font-size: 40px;
+    padding-left: 90px;
+    padding-right: 30px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .7s ease-in;
+    cursor: pointer;
+}
+.box p.box4:hover:before{
+    width:100%;
+} 
+.box p.box4:before {
+    position: absolute;
+    transition: all .7s ease-in-out;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #4A898F;
+    content: "";
+    cursor: pointer;
+}
+.box p.box4:hover span.color1{
+    visibility: visible;
+    opacity: 1;
+}
+.boxes .box p.box4 {
+    margin-top: 40px;
+    display: inline-block;
+    position: relative;
+}
+.lines .row{
+    margin: 0 -20px;
+}
+.lines{
+    background-color: #EFEFF1;
+}
+.section_padding+.section_white{
+    margin-top: -90px;
+}
+.lines .col{
+    vertical-align: top;
+    padding: 0 20px;
+}
+.line{
+    padding-top: 110px;
+    padding-bottom: 25px;
+    font-size: 22px;
+    font-family: 'Inter';
+    font-weight: bold;
+    text-align: center;
+}
+.lines .col_7{
+    width: 14%;
+}
+.line span.empty{
+    display: block;
+    padding: 3px;
+    background-color: #FF9B26;
+}
+.business{
+    position: relative;
+}
+.line .business:before {
+    position: absolute;
+    transition: all .9s ease-in-out;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background: #FF9B26;
+    content: "";
+    cursor: pointer;
+}
+.line .business:hover:before{
+    height: 100%;
+}
+.line .line1{
+    max-width: 165px;
+    color: #175888;
+    padding-bottom: 30px;
+}
+.line .percentage1{
+    position: relative;
+    height: 495px;
+    cursor: pointer;
+}
+.line .percentage1 span.num1{
+    font-size: 41px;
+    display: block;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .9s ease-in;
+    cursor: pointer;
+    width: 100%;
+    bottom: 10px;
+}
+.line .business:hover span.num1{
+    visibility: visible;
+    opacity: 1;
+}
+.line img.image1{
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .9s ease-in;
+}
+.line .business:hover+.image1{
+    visibility: visible;
+    opacity: 1;
+}
+.line .line2{
+    max-width: 140px;
+    color: #9F4B4C;
+    padding-bottom: 30px;
+}
+.line .percentage2{
+    position: relative;
+    height: 315px;
+    cursor: pointer;
+}
+.line .percentage2 span.num2{
+    font-size: 41px;
+    display: block;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .9s ease-in;
+    cursor: pointer;
+    width: 100%;
+    bottom: 10px;
+}
+.line .business:hover span.num2{
+    visibility: visible;
+    opacity: 1;
+}
+.line img.image2{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .9s ease-in;
+}
+.line .business:hover+.image2{
+    visibility: visible;
+    opacity: 1;
+}
+.line .line3{
+    max-width: 130px;
+    color: #4A898F;
+    padding-bottom: 30px;
+}
+.line .percentage3{
+    position: relative;
+    height: 180px;
+    cursor: pointer;
+}
+.line .percentage3 span.num3{
+    font-size: 41px;
+    display: block;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .9s ease-in;
+    cursor: pointer;
+    width: 100%;
+    bottom: 10px;
+}
+.line .business:hover span.num3{
+    visibility: visible;
+    opacity: 1;
+}
+.line img.image3{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .9s ease-in;
+}
+.line .business:hover+.image3{
+    visibility: visible;
+    opacity: 1;
+}
+.line .line4{
+    max-width: 85px;
+    color: #444DD1;
+    padding-bottom: 30px;
+}
+.line .percentage4{
+    position: relative;
+    height: 180px;
+    cursor: pointer;
+}
+.line .percentage4 span.num4{
+    font-size: 41px;
+    display: block;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .9s ease-in;
+    cursor: pointer;
+    width: 100%;
+    bottom: 10px;
+}
+.line .business:hover span.num4{
+    visibility: visible;
+    opacity: 1;
+}
+.line img.image4{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .9s ease-in;
+}
+.line .business:hover+.image4{
+    visibility: visible;
+    opacity: 1;
+}
+.line .line5{
+    max-width: 200px;
+    color: #B51ECD;
+    padding-bottom: 55px;
+}
+.line .percentage5{
+    position: relative;
+    height: 120px;
+    cursor: pointer;
+}
+.line .percentage5 span.num5{
+    font-size: 41px;
+    display: block;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .9s ease-in;
+    cursor: pointer;
+    width: 100%;
+    bottom: 10px;
+}
+.line .business:hover span.num5{
+    visibility: visible;
+    opacity: 1;
+}
+.line img.image5{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .9s ease-in;
+}
+.line .business:hover+.image5{
+    visibility: visible;
+    opacity: 1;
+}
+.line .line6{
+    max-width: 170px;
+    color: #CF1A7F;
+    padding-bottom: 30px;
+}
+.line .percentage6{
+    position: relative;
+    height: 105px;
+    cursor: pointer;
+}
+.line .percentage6 span.num6{
+    font-size: 41px;
+    display: block;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .9s ease-in;
+    cursor: pointer;
+    width: 100%;
+    bottom: 10px;
+}
+.line .business:hover span.num6{
+    visibility: visible;
+    opacity: 1;
+}
+.line img.image6{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .9s ease-in;
+}
+.line .business:hover+ .image6{
+    visibility: visible;
+    opacity: 1;
+}
+.line .line7{
+    max-width: 165px;
+    color: #CB7500;
+    padding-bottom: 30px;
+}
+.line .percentage7{
+    position: relative;
+    height: 105px;
+    cursor: pointer;
+}
+.line .percentage7 span.num7{
+    font-size: 41px;
+    display: block;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .9s ease-in;
+    cursor: pointer;
+    width: 100%;
+    bottom: 10px;
+}
+.line .business:hover span.num7{
+    visibility: visible;
+    opacity: 1;
+}
+.line img.image7{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .9s ease-in;
+}
+.line .business:hover+ .image7{
+    visibility: visible;
+    opacity: 1;
+}
+.line p{
+    display: inline-block;  
+}
+.scroll_section{
+    padding: 90px 0;
+    background-color: #1B144A;
+}
+.scroll_section h1{
+    font-size: 72px;
+    font-family: 'Inter';
+    color: #FF9B26;
+    max-width: 600px;
+}
+.scroll_section h3{
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    max-width: 455px;
+    padding-top: 25px;
+}
+.move{
+    padding-top: 100px;
+    overflow: hidden;
+}
+.move .row{
+    padding-bottom: 110px;
+}
+.scroll_image {
+    width: 626px;
+    height: 413px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FFFFFFBF;
+}
+.scroll_image img{
+    max-width: 25%;
+    margin-top: 40px;
+    height: 145px;
+}
+.scroll_image h1{
+    font-size: 29px;
+    padding-top:35px;
+    padding-bottom: 70px;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: #1A1449;
+}
+.scroll_image a{
+    display: block;
+    font-size: 22px;
+    font-family: 'Inter';
+    color: #D67300;
+    text-decoration: underline;
+    text-align: center;
+}
+.award_section h1{
+    font-size: 72px;
+    color: #FF9B26;
+    font-family: 'Inter';
+    font-weight: bold;
+    max-width: 580px;
+}
+.award_section{
+    padding: 90px 0;
+    background-color: #EFEFF1;
+}
+.award_section .heading h2{
+    padding-top: 15px;
+    padding-bottom: 105px;
+    font-size: 25px;
+    color: #222222;
+    max-width: 575px;
+    font-weight: normal;
+}
+.awards .col{
+    text-align: center;
+}
+.awards img{
+    height: 120px;
+}
+.awards h1{
+    font-size: 23px;
+    color: #FF9B26;
+    padding-top: 30px;
+    font-family: 'Inter';
+    font-weight: bold;
+    max-width: 250px;
+    text-align: center;
+}
+.awards h2{
+    font-size: 23px;
+    color: #1A1449;
+    font-family: 'Inter';
+    font-weight: bold;
+    max-width: 250px;
+    text-align: center;
+}
+.awards h3{
+    font-size: 18px;
+    color: #1A1449;
+    padding-top: 20px;
+    max-width: 250px;
+    text-align: center;
+    font-family: 'Inter';
+}
+.what_next {
+    padding: 90px 0;
+}
+.what_next .head{
+    font-size: 72px;
+    color: #FF9B26;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+.what_next .para{
+    padding-top:35px;
+}
+.what_next p{
+    font-size: 25px;
+    color: #222222;
+    max-width: 615px;
+    font-family: 'Inter';
+}
+.last_section{
+    position: relative;
+}
+.last_section .image{
+    padding-top: 72%;
+}
+.last_section .titl {
+    font-size:72px;
+    color: #FF9B26;
+    font-family: 'Inter';
+    padding-top: 90px;
+    padding-left: 193px;
+    max-width: 862px;
+}
+.after_head .title_35{
+    font-size: 35px;
+    color: #FF9B26;
+    padding-top: 25px;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+.last_section .after_head .image {
+    padding-top: 84%;
+    margin-top: 180px;
+}
+.after_head a.logo img{
+    max-width: 465px;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+.after_head p{
+    font-size: 25px;
+    color: #6e2020;
+    padding-top: 70px;
+    max-width: 760px;
+    padding-left: 50px;
+}
+.head1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+}
+.arrow {
+   text-align: center;
+}
+.innovation {
+    padding-bottom: 90px;
+    padding-top: 100px;
+    overflow: hidden;
+}
+.innovation .img{
+    max-width: 455px;
+}
+.innovation h1{
+    font-size: 27px;
+    color: #FFB700;
+    font-family: 'Inter';
+    font-weight: bold;
+    max-width:500px;
+    padding-top: 35px;
+    height: 101px;
+}
+.innovation .horizontal_line{
+    position: relative;
+    width: 100%;
+    height:1px;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: #000000;
+}
+.innovation .picture p{
+    font-size: 18px;
+    color: #222222;
+    padding-top: 40PX;
+    max-width: 555px;
+    font-family: 'Inter';
+}
+.innovation .picture .horizontal_line:before{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    content: "";
+    border: 2px solid #000000;
+    left: -15px;
+    top: 50%;
+    transform: translatey(-50%);
+}
